@@ -1,0 +1,20 @@
+.list-view{
+	-fx-background-color:  rgb(77,102,204);
+	-fx-background-radius: 10px;
+
+}
+
+.list-cell:odd{
+	-fx-text-fill: WHITE;
+	-fx-background-color: transparent;
+}
+
+.list-cell:even{
+	-fx-text-fill: WHITE;
+	-fx-background-color: transparent;
+}
+
+.scroll-bar{
+	-fx-background-color:  rgb(77,102,204);
+	-fx-background-radius: 10px;
+}
