@@ -32,13 +32,13 @@ public class HelloController implements Initializable {
 
     List<TelefonPublic> listaTelPublice = new ArrayList<TelefonPublic>();
 
-    List<String> sistemeDeOperare = Arrays.asList("Android", "IOS", "Windows Mobile");
+    List<String> sistemeDeOperare = Arrays.asList("Google Android ", "Apple iOS ", "Windows Phone ");
 
-    List<String> modeleTelefon = Arrays.asList("Samsung", "Nokia", "iPHONE", "Huwaei", "Motorola", "HTC", "OCB");
-    List<String> culoriTelefoane = Arrays.asList("negru", "roz", "albastru", "turcuaz", "alb", "gri", "maro", "verde", "galben", "portocaliu");
-    List<String> dimensiuniTelefon = Arrays.asList("1 inch", "2 inch", "3 inch");
-    List<String> sanatateBaterie = Arrays.asList("buna", "proasta");
-    List<String> procesoareTelefon = Arrays.asList("Intel Core", "Bionic hH", "Bionic Hands", "Picior de metal", "AMRadeiOn");
+    List<String> modeleTelefon = Arrays.asList("IPhone ", "Samsung ", "Huawei ", "Xiaomi ", "One Plus ", "Lenovo ", "Google ", "Sony ", "ZTE ", "LG ");
+    List<String> culoriTelefoane = Arrays.asList("Negru ", "Alb ", "Galben ", "Portocaliu ", "Roşu ", "Violet ", "Albastru ", "Turcoaz ", "Gri ", "Verde ","Purpuriu ","Cyan ");
+    List<String> dimensiuniTelefon = Arrays.asList("5.2 inch ", "5.4 Inch ", "5.6 Inch ", "5.8 Inch ", "6.0 Inch ", "6.2 Inch, ", "6.4 Inch, ","6.6 Inch ", "6.8 Inch ", "7.0 Inch ");
+    List<String> sanatateBaterie = Arrays.asList("Foarte bună ", "Bună ", "Normală ", "Deteriorată ", "Foarte Deteriorată");
+    List<String> procesoareTelefon = Arrays.asList("A16 Bionic", "Snapdragon 8 Gen 2", "A15 Bionic ", "Dimensity 9000+", "Exynos 2200", "Kirin 9000", "Google Tensor G2", "Kirin 9300E");
 
     @FXML
     private ListView<TelefonMobil> Id1;

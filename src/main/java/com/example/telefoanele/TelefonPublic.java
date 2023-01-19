@@ -69,12 +69,12 @@ public class TelefonPublic extends Telefon{
     @Override
     public String toString(){
         String mesaj;
-        mesaj = "Telefonul public are urmatoarele specificatii: " +
-                "culoarea - " + this.culoareTelefon +
-                ",dimensiuni - " + this.dimensiuniTelefon +
-                ",model - " + this.model +
-                ",pret - " + this.pret +
-                ",dimensiuneaCabinei - " + this.dimensiuneaCabinei;
+        mesaj = "Specificaţii: " +
+                "Culoarea - " + this.culoareTelefon +
+                ",Dimensiuni - " + this.dimensiuniTelefon +
+                ",Model - " + this.model +
+                ",Pret - " + this.pret +
+                ",Dimensiunea cabinei - " + this.dimensiuneaCabinei;
 
         return mesaj;
     }

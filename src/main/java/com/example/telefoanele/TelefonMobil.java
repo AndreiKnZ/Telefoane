@@ -73,15 +73,15 @@ public class TelefonMobil extends Telefon {
     @Override
     public String toString(){
         String mesaj;
-        mesaj = "Telefonul mobil are urmatoarele specificatii: " +
-                "culoarea - " + this.culoareTelefon +
-                ",dimensiuni - " + this.dimensiuniTelefon +
-                ",procesor - " + this.procesorTelefon +
-                ",sanatate baterie - " + this.sanatateBaterie +
-                ",sistem de operare - " + this.sistemDeOperare +
-                ",calitate foto - " + this.calitateFoto +
-                ",model - " + this.model +
-                ",pret - " + this.pret;
+        mesaj = "Specificaţii : " +
+                "Culoarea - " + this.culoareTelefon +
+                ",Dimensiuni - " + this.dimensiuniTelefon +
+                ",Procesor - " + this.procesorTelefon +
+                ",Sanatate baterie - " + this.sanatateBaterie +
+                ",Sistem de operare - " + this.sistemDeOperare +
+                ",Calitate foto - " + this.calitateFoto +
+                ",Model - " + this.model +
+                ",Pret - " + this.pret;
 
         return mesaj;
     }

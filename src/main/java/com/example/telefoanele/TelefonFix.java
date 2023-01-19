@@ -52,12 +52,12 @@ public class TelefonFix extends Telefon{
     @Override
     public String toString(){
         String mesaj;
-        mesaj = "Telefonul fix are urmatoarele specificatii: " +
-                "culoarea - " + this.culoareTelefon +
-                ",sistem de operare - " + this.sistemDeOperare +
-                ",model - " + this.model +
-                ",pret - " + this.pret +
-                ",raza de actiune - " + this.razaDeActiune;
+        mesaj = "Speciticaţii : " +
+                "Culoarea - " + this.culoareTelefon +
+                ",Sistem de operare - " + this.sistemDeOperare +
+                ",Model - " + this.model +
+                ",Pret - " + this.pret +
+                ",Raza de actiune - " + this.razaDeActiune;
 
         return mesaj;
     }
